@@ -1,0 +1,80 @@
+- Write code as a senior developer so a 10-year-old child can understand.
+- Add more rules for reinforcement
+- Use "type" instead of "interface" in TypeScript.
+- Avoid using QueryBuilder in NestJS.
+- In NestJS, use `dataSource` to get the repository instead of injecting the repository.
+- Use descriptive variable and function names that clearly indicate their purpose.
+- Prioritize readability over brevity even if it means using slightly more verbose code.
+- Use modern JavaScript/TypeScript features to simplify code when possible.
+- Include error handling and input validation in code examples.
+- Demonstrate how to use environment variables for configuration when applicable.
+- Provide examples of unit tests for critical functions or components.
+- Use async/await for asynchronous operations instead of callbacks or raw promises.
+- Demonstrate proper use of TypeScript's type system including union types and generics when appropriate.
+- Include examples of how to structure larger applications or projects when relevant to the task.
+- Implement proper error logging and monitoring strategies.
+- Use strict TypeScript configuration to catch more errors at compile-time.
+- Follow the SOLID principles in object-oriented design.
+- Implement proper security measures such as input sanitization and protection against common vulnerabilities.
+- Use linting tools and follow consistent code style guidelines.
+- Implement proper data validation and sanitization at all entry points.
+- Use dependency injection and inversion of control principles where applicable.
+- Implement proper caching strategies to improve performance.
+- Use appropriate design patterns to solve common architectural problems.
+- Implement proper database indexing and query optimization techniques.
+- Use continuous integration and continuous deployment (CI/CD) practices.
+- Implement proper versioning for APIs and libraries.
+- Use appropriate data structures and algorithms to optimize performance.
+- Implement proper error boundaries and fallback mechanisms for robust applications.
+- Use feature flags for safer deployment of new features.
+- Implement proper logging and tracing for easier debugging and monitoring.
+- For Rust, use the Result and Option types for error handling and null safety.
+- Leverage Rust's ownership system and borrow checker for memory safety.
+- Use Rust's trait system for polymorphism and code reuse.
+- Implement proper concurrency patterns in Rust using threads and async/await.
+- For C#, use LINQ for efficient data manipulation and querying.
+- Leverage C#'s async/await pattern for asynchronous programming.
+- Use C# properties instead of public fields for better encapsulation.
+- Implement proper exception handling and use custom exceptions in C# when appropriate.
+- Use C# attributes for metadata and declarative programming.
+- Leverage C#'s garbage collection while being mindful of object lifetimes and disposal patterns.
+- Use C# events and delegates for loosely coupled designs.
+- Implement proper multithreading patterns in C# using Task Parallel Library (TPL).
+- Use C# generics for type-safe and reusable code.
+- Leverage C#'s extension methods for adding functionality to existing types without modifying them.
+- Keep related code together in larger, well-commented functions instead of breaking them into smaller ones.
+- Use descriptive comments within functions to explain different sections or steps rather than extracting them into separate functions.
+- Prioritize readability through clear variable naming and in-line comments over function extraction.
+- Use longer, more descriptive function names that encompass the entire functionality rather than splitting into multiple shorter functions.
+- Utilize whitespace and code formatting to improve readability within larger functions instead of breaking them apart.
+- Group related operations within a single function using clearly labeled code blocks or regions.
+- When refactoring, focus on improving variable names, adding comments, and optimizing logic within existing functions rather than creating new ones.
+- Use local variables with descriptive names to break down complex operations within a function instead of extracting them into separate functions.
+- Implement error handling and validation within the main function body rather than creating separate utility functions for these tasks.
+- For complex algorithms, keep all steps within a single function, using comments to explain each part of the process.
+- Avoid creating utility functions for simple operations; instead, perform these operations inline with clear comments.
+- When dealing with asynchronous operations, keep all related async calls within the same function, using async/await to manage flow.
+- Use switch statements or if-else chains within a function instead of breaking out each case into a separate function.
+- For data transformation or processing, keep all steps within a single function, using comments to explain each transformation stage.
+- Implement logging and debugging directly within the main function body rather than creating separate logging functions.
+- When implementing algorithms, consider multiple approaches and choose the most appropriate based on the specific problem constraints and user requirements.
+- Analyze time and space complexity of algorithms to ensure optimal performance for the given use case.
+- Implement algorithms with clear, descriptive variable names and in-line comments explaining each major step or decision point.
+- Use appropriate data structures (e.g., hash tables, trees, heaps) to optimize algorithm efficiency based on the problem's needs.
+- Consider edge cases and boundary conditions when implementing algorithms, and include robust error handling.
+- For recursive algorithms, always consider the base case and ensure proper termination conditions to avoid stack overflow.
+- When dealing with large datasets, consider implementing streaming or chunking approaches to handle data that doesn't fit in memory.
+- For graph algorithms, choose appropriate representations (adjacency list, adjacency matrix) based on the graph's properties and the algorithm's requirements.
+- Implement dynamic programming solutions when applicable, using memoization or tabulation techniques to optimize recursive problems.
+- For sorting algorithms, consider the nature of the data (nearly sorted, reverse sorted, etc.) and choose the most appropriate algorithm accordingly.
+- When implementing search algorithms, consider using binary search for sorted data or more advanced techniques like A* for pathfinding problems.
+- For string manipulation algorithms, consider using efficient data structures like suffix arrays or tries when dealing with large amounts of text data.
+- Implement parallel or distributed versions of algorithms when dealing with very large datasets or when performance is critical.
+- Use randomized algorithms when appropriate, ensuring proper seeding for reproducibility and analyzing probabilistic guarantees.
+- Consider approximation algorithms for NP-hard problems when exact solutions are not feasible due to time or space constraints.
+- Implement online algorithms for streaming data or when all input is not available at once.
+- Use proper naming conventions for well-known algorithms (e.g., Dijkstra's algorithm, QuickSort) to improve code readability and maintainability.
+- Implement custom comparators or priority functions when using sorting or priority queue-based algorithms to handle complex ordering requirements.
+- Consider the stability of sorting algorithms when the order of equal elements matters in the sorted output.
+- Implement efficient data compression algorithms when dealing with large amounts of data that need to be stored or transmitted.
+- Use camelCase for variable and function names in JavaScript and TypeScript to improve readability and adhere to common coding conventions.
