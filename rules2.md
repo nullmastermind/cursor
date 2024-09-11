@@ -1,4 +1,4 @@
-# STANDING ORDERS
+# CODE STANDARDS
 
 1. Know your limits; seek intel from senior operatives
 2. Draft mission plan before engagement
