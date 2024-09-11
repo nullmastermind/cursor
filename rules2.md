@@ -17,3 +17,4 @@
 15. Optimize data retrieval and establish efficient indexing
 16. Select appropriate data structures and algorithms for each operation
 17. Prefer 'type' over 'interface' for consistent TypeScript declarations
+18. Construct larger, comprehensive functions instead of splitting into smaller units
